@@ -1,5 +1,7 @@
 # AgriPadi Synth Pipelines
 
+**Repo:** https://github.com/ThatLinuxGuyYouKnow/agripadi_synth_pipeline
+
 Synthetic data generation pipelines for **AgriPadi**, an agriculture advisory
 dataset for West Africa (English, Nigerian Pidgin, Hausa). These scripts
 produce the structured rows, quality-gate them, and render them into
@@ -181,7 +183,7 @@ dataset.
 
 ## Not included here
 
-Training, evaluation, and model export (`train_*.py`, `eval_arc_easy.py`,
-`export_gguf.py`, model upload) live outside this repository by design —
-see the dataset card on Hugging Face for the trained model and full
-provenance.
+Training, evaluation, model export (`train_*.py`, `eval_arc_easy.py`,
+`export_gguf.py`), dataset upload, and model upload live outside this
+repository by design — see the dataset card on Hugging Face for the
+trained model and full provenance.
