@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.pyc
+
+# generated data artifacts — the dataset is published on Hugging Face,
+# not committed here. excerpts.json (seed) is intentionally NOT ignored.
+*.jsonl
+*.jsonl.*
+*.pre_hausa
+*.pre_patch
+
+.venv/
+venv/
+/tmp/
+.DS_Store
